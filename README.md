@@ -4,8 +4,8 @@ of words and iterates through all five letter words in the list without any dupl
 of each letter at each index across the dataset. It also more heavily weights letter frequncy if the word the letter
 is coming from is in the set of the most common words in the english language. Once the frequencies are established,
 iterates through the word list again. Each word is scored by summing the scores of the letters included in the word.
-Each letter is scored by a weighted sum of `[frequency of occurence of that letter in its particular index across
-all words] + [frequency of occurence of that letter in any index across all words]`. With current feature set and
+Each letter is scored by a weighted sum of \[frequency of occurence of that letter in its particular index across
+all words\] + \[frequency of occurence of that letter in any index across all words\]. With current feature set and
 weightings, the highest scoring words are as follows:
 
 
